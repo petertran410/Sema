@@ -154,3 +154,59 @@ header .header__menu li:hover p {
   max-width: 100%;
 }
 /* End Section 1 */
+
+/* Section 2 */
+.services {
+  background-image: url(../Images/bg2.png);
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+}
+
+.section-inner {
+  padding-top: 115px;
+}
+
+section .title p {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #f55f8d;
+}
+
+section .title h2 {
+  font-size: 70px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #262626;
+  margin-bottom: 20px;
+}
+
+.services .services__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.services .services__content .services__item {
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+  padding: 30px 45px;
+  transform: translateY(0);
+  transition: all 0.5s;
+  border-image: 100 round;
+  border: 3px solid transparent;
+}
+
+.services .services__content .services__item img {
+  width: 215px;
+}
+
+
+/* End Section 2 */
+
+
+
+
