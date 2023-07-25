@@ -1,0 +1,82 @@
+/* Header */
+header .header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header__menu {
+  display: flex;
+  align-items: center;
+}
+
+header .header__menu ul {
+  display: flex;
+  margin-right: 30px;
+}
+
+header .header__menu li {
+  padding: 55px 15px;
+}
+
+header .header__menu li a {
+  position: relative;
+}
+
+header .header__menu li a::before {
+  content: "";
+  position: absolute;
+  color: #070120;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .header__menu li:hover a {
+  color: var(--color-one);
+}
+
+header .header__content i {
+  font-size: 9px;
+  margin-top: -3px;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+header .header__content i::before {
+  content: "\f078";
+}
+
+header .header__menu li p {
+  display: inline-block;
+}
+
+header .header__menu .active a, header .header__menu .active:hover {
+  /* color: #35a22c; */
+  animation: unset;
+}
+
+header .header__menu li:hover p {
+  animation: upToDown 0.3s forwards;
+}
+
+@keyframes upToDown {
+  49% {
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+
+header .button__gradient {
+  
+}
+
