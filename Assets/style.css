@@ -200,13 +200,97 @@ section .title h2 {
   border: 3px solid transparent;
 }
 
+.services .services__content .services__item:hover {
+  transform: translateY(-20px);
+  border-image: url(../Images/br.png) 1 round;
+}
+
 .services .services__content .services__item img {
   width: 215px;
 }
 
-
+.services .services__content .services__item h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #262626;
+  margin: 15px 0;
+}
 /* End Section 2 */
 
+/* Section 3 */
+.aboutUs {
+  background-image: url(../Images/bg15.png);
+  background-size: 100%;
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding-bottom: 85px;
+  overflow: hidden;
+}
 
+.inner-section {
+  padding-top: 115px;
+}
 
+.aboutUs .aboutUs__content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
 
+.aboutUs .aboutUs__content .aboutUs__left {
+  width: 60%;
+  position: absolute;
+  left: -17%;
+}
+
+.aboutUs .aboutUs__content .aboutUs__left img {
+  width: 100%;
+  border-radius: 0 100px 100px 0;
+}
+
+.aboutUs .aboutUs__content .aboutUs__right {
+  width: 50%;
+}
+
+.aboutUs .aboutUs__content .aboutUs__right .title p {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #f55f8d;
+}
+
+.aboutUs .aboutUs__content .aboutUs__right .title h2 {
+  font-size: 70px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #262626;
+  margin-bottom: 20px;
+}
+
+.aboutUs .aboutUs__content .aboutUs__right p {
+  margin-bottom: 15px;
+}
+
+.aboutUs .aboutUs__content .aboutUs__right ul {
+  margin-bottom: 30px;
+}
+
+.aboutUs .aboutUs__content .aboutUs__right ul li {
+  margin-bottom: 15px;
+}
+
+.aboutUs .aboutUs__content .aboutUs__right ul li i {
+  font-size: 17px;
+  color: #f55f8d;
+  margin-right: 10px;
+  vertical-align: middle;
+  font-style: italic;
+  border: 1.5px solid #f55f8d;
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px; 
+}
+
+.aboutUs .aboutUs__content .aboutUs__right .button__gradient {
+  padding: 20px 50px;
+}
