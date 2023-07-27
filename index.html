@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
-    
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
   <!-- Reset -->
   <link rel="stylesheet" href="./Assets/reset.css">
@@ -26,6 +26,12 @@
 
   <!-- Animate -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- slick css -->
+  <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css" />
+  <!-- Fancybox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
   <!-- Base -->
   <link rel="stylesheet" href="./Assets/base.css">
@@ -214,28 +220,57 @@
       <div class="number__content">
         <div class="number__item">
           <i class="fa-regular fa-face-smile-beam"></i>
-          <p><span class="counter">18</span> Ml</p>
-          <p>Satisfied Clients</p>
+          <div><span class="counter">18</span> Ml</div>
+          <div>Satisfied Clients</div>
         </div>
         <div class="number__item">
           <i class="fa-solid fa-display"></i>
-          <p><span class="counter">20</span> Ml</p>
-          <p>Project Completed</p>
+          <div><span class="counter">20</span> Ml</div>
+          <div>Project Completed</div>
         </div>
         <div class="number__item">
           <i class="fa-solid fa-rocket"></i>
-          <p><span class="counter">30</span> Ml</p>
-          <p>Project Lunched</p>
+          <div><span class="counter">30</span> Ml</div>
+          <div>Project Lunched</div>
         </div>
         <div class="number__item">
-          <i class="flaticon-confetti"></i>
-          <p><span class="counter">50</span></p>
-          <p>Years Completed</p>
+          <i class="fa-solid fa-gift"></i>
+          <div><span class="counter">50</span></div>
+          <div>Years Completed</div>
         </div>
       </div>
     </div>
   </section>
   <!-- End Section 4 -->
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous"></script>
+  <!-- slick -->
+  <script src="./slick-1.8.1/slick/slick.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+    integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script
+    src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+  <script>
+    $(".counter").countUp({
+      delay: 10,
+      time: 3000
+    });
+  </script>
+
 
 </body>
 
