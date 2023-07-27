@@ -338,3 +338,58 @@ section .title h2 {
   font-size: 18px;
 }
 /* End Section 4 */
+
+/* Section 5 */
+.features {
+  background-image: url(../Images/bg2.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.features .features__content {
+  display: flex;
+}
+
+.features .features__content .features__left, .features .features__content .features__right {
+  width: 50%;
+}
+
+.features .features__content .features__left .title p {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #f55f8d;
+}
+
+.features .features__content .features__left .title h2 {
+  font-size: 70px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #262626;
+  margin-bottom: 20px;
+}
+
+.features .features__content .features__left .features__group .features__item {
+  padding: 0 50px 30px 0;
+}
+
+.features .features__content .features__left .features__group .features__item div {
+  padding-left: 25px;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.features .features__content .features__left .features__group .features__item .features__bg {
+  box-shadow: 0 0px 60px 0px rgb(0 0 0 / 10%);
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+/* End Section 5 */
