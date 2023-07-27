@@ -294,3 +294,25 @@ section .title h2 {
 .aboutUs .aboutUs__content .aboutUs__right .button__gradient {
   padding: 20px 50px;
 }
+/* End Section 3 */
+
+/* Section 4 */
+.number {
+  background-image: url(../Images/bg14.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0 50px;
+  text-align: center;
+}
+
+.number .number__content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.number .number__content .number__item {
+  width: 25%;
+}
+
+.number 
+/* End Section 4 */
